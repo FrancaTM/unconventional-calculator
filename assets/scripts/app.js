@@ -26,6 +26,9 @@ function add() {
   };
   logEntries.push(logEntry);
   console.log(logEntries);
+  console.log(logEntries[0]["operation"]);
+  console.log(logEntries[0].operation);
+  console.log(logEntry.operation);
 }
 
 function subtract() {
